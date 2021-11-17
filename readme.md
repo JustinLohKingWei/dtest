@@ -10,7 +10,7 @@
 ## Reading and Writing to a file
 1. Use **dtest -i inputFileName -o outputFileName** to read the file **inputFilename** and write the results to **outputFilename**
 ## Running Unit tests
-2. Use **dtest -t -i -o** to excute all unit tests found in the directory
+1. Use **dtest -t -i -o** to excute all unit tests found in the directory
 
 
  # Uninstallation guide
