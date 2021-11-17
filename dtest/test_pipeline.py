@@ -1,6 +1,15 @@
-from types import NoneType
 import unittest
-from .pipeline import clean,check_diabetes,average
+from .pipeline import isDigit,clean,check_diabetes,average
+
+class testIsDigit(unittest.TestCase):
+    def testIsNumber(self):
+        self.assertTrue(isDigit('-1'))
+        self.assertTrue(isDigit('123.34'))
+        self.assertTrue(isDigit('10'))
+    def testIsNotNumber(self):
+        self.assertFalse(isDigit(''))
+        self.assertFalse(isDigit('Apple'))
+        self.assertFalse(isDigit('1a0'))
 
 
 class testClean(unittest.TestCase):

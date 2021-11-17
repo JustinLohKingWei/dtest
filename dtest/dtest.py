@@ -20,13 +20,10 @@ def dtest(fileInput,fileOutput):
             glucose_average = average(glucose_t1, glucose_t2, glucose_t3)
         # generate results based on average
             diagnostic = check_diabetes(glucose_average)
-        # clean data
+        # clean data to replace all invalid values
             cleaned_glucose_t1 = clean(glucose_t1)
-            print(cleaned_glucose_t1)
             cleaned_glucose_t2 = clean(glucose_t2)
-            print(cleaned_glucose_t1)
             cleaned_glucose_t3 = clean(glucose_t3)
-            print(cleaned_glucose_t1)
             line = "{},{},{},{},{},{}\n".format(patient_id, cleaned_glucose_t1, cleaned_glucose_t2, cleaned_glucose_t3, glucose_average, diagnostic)
             outfile.write(line)
     outfile.close
