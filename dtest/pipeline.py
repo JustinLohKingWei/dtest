@@ -25,9 +25,17 @@ def average(t1, t2, t3):
 
 # returns diagnostic results based on average blood sugar
 def check_diabetes(blood_sugar):
-    status = 'Normal'
-    if blood_sugar > 140:
-        status = 'Prediabetes'
-    if blood_sugar > 200:
-        status = 'Diabetes'
+    # Checks for invalid inputs
+    if blood_sugar < 0:
+        status = 'Invalid Result'
+    else :
+        status = 'Normal'
+    # blood equal to or larger than 140 indicates Prediabetes
+        if blood_sugar > 139:
+            status = 'Prediabetes'
+    # blood equal to or larger than 200 indicates Diabetes
+        if blood_sugar > 199:
+            status = 'Diabetes'
+        if blood_sugar > 2596:
+            status = 'Invalid Result'
     return status

@@ -1,7 +1,20 @@
 # Dtest Summary
+ Dtest is a python CLI application which reads a .csv file input of medical records , deduces diagnostic results based on the data, and outputs it to another .csv file .
 
-# How to run
- 
+# Installation guide
+ 1. Have at least python 2 installed. 
+ 2. Access the repository via a terminal. 
+ 3. Run pip3 install .e 
+
+ # Usage
+## Reading and Writing to a file
+1. Use
+## Running Unit tests
+2. Use
+
+
+ # Uninstallation guide
+
 
 # Assumptions taken
 
@@ -10,5 +23,5 @@
 - We shall also assume that a blood glucose level can be exceedingly low in a person , but not zero at any given time
 - Only 3 tests exactly are expected. And format of the given patient data is not subject to change.
 - Encoding of received csv files are that of 'ISO-8859-1'
-- Only display of 2 decimal places is required
+- Only a display of 2 decimal places is required
 
