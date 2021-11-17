@@ -1,3 +1,4 @@
+
 # Checks if an input can be converted into a numeric value
 def isDigit(x):
     try:
@@ -7,6 +8,12 @@ def isDigit(x):
         return False
     except TypeError:
         return False
+
+def clean(stringInput):
+    outputString = 'Test Results Invalid'
+    if isDigit(stringInput) and 0 < float(stringInput) <= 2565.0:
+        outputString = stringInput
+    return outputString
 
 # finds average of parsed test results
 def average(t1, t2, t3):

@@ -19,8 +19,5 @@ def main():
         
     dtest(args.i, args.o)
 
-    print('dtest has completed running')
-
-
 if __name__ == '__main__':
     main()

@@ -130,14 +130,14 @@ patient_id, glucose_test1, glucose_test2, glucose_test3, average_glucose, diagno
 129,162,158,122.1,147.37,Prediabetes
 130,161,172,167.6,166.87,Prediabetes
 131,109,111,136.9,118.97,Normal
-132,101,152,n/a,126.5,Normal
-133,122,152,n/a,137.0,Normal
-134,189,162,n/a,175.5,Prediabetes
-135,103,125,n/a,114.0,Normal
-136,175,138,n/a,156.5,Prediabetes
-137,155,182,n/a,168.5,Prediabetes
-138,173,158,n/a,165.5,Prediabetes
-139,250,120,n/a,185.0,Prediabetes
+132,101,152,Test Results Invalid,126.5,Normal
+133,122,152,Test Results Invalid,137.0,Normal
+134,189,162,Test Results Invalid,175.5,Prediabetes
+135,103,125,Test Results Invalid,114.0,Normal
+136,175,138,Test Results Invalid,156.5,Prediabetes
+137,155,182,Test Results Invalid,168.5,Prediabetes
+138,173,158,Test Results Invalid,165.5,Prediabetes
+139,250,120,Test Results Invalid,185.0,Prediabetes
 140,111,178,169.2,152.73,Prediabetes
 141,150,108,107.6,121.87,Normal
 142,148,167,126.6,147.2,Prediabetes
@@ -168,14 +168,14 @@ patient_id, glucose_test1, glucose_test2, glucose_test3, average_glucose, diagno
 167,118,117,175.9,136.97,Normal
 168,138,160,171.3,156.43,Prediabetes
 169,110,173,138,140.33,Prediabetes
-170,111,150,,130.5,Normal
-171,142,133,,137.5,Normal
-172,149,156,,152.5,Prediabetes
-173,168,180,,174.0,Prediabetes
-174,107,177,,142.0,Prediabetes
-175,115,156,,135.5,Normal
-176,128,106,,117.0,Normal
-177,170,165,,167.5,Prediabetes
+170,111,150,Test Results Invalid,130.5,Normal
+171,142,133,Test Results Invalid,137.5,Normal
+172,149,156,Test Results Invalid,152.5,Prediabetes
+173,168,180,Test Results Invalid,174.0,Prediabetes
+174,107,177,Test Results Invalid,142.0,Prediabetes
+175,115,156,Test Results Invalid,135.5,Normal
+176,128,106,Test Results Invalid,117.0,Normal
+177,170,165,Test Results Invalid,167.5,Prediabetes
 178,117,161,154.4,144.13,Prediabetes
 179,172,139,118.4,143.13,Prediabetes
 180,175,144,101,140.0,Prediabetes
@@ -248,11 +248,11 @@ patient_id, glucose_test1, glucose_test2, glucose_test3, average_glucose, diagno
 247,130,158,158.6,148.87,Prediabetes
 248,179,124,101.7,134.9,Normal
 249,189,163,136.8,162.93,Prediabetes
-250,116,182,-1,149.0,Prediabetes
-251,131,141,-1,136.0,Normal
-252,144,104,-1,124.0,Normal
-253,166,160,-1,163.0,Prediabetes
-254,121,132,-1,126.5,Normal
+250,116,182,Test Results Invalid,149.0,Prediabetes
+251,131,141,Test Results Invalid,136.0,Normal
+252,144,104,Test Results Invalid,124.0,Normal
+253,166,160,Test Results Invalid,163.0,Prediabetes
+254,121,132,Test Results Invalid,126.5,Normal
 255,142,136,188.4,155.47,Prediabetes
 256,137,165,155.1,152.37,Prediabetes
 257,181,185,113.9,159.97,Prediabetes
@@ -312,13 +312,13 @@ patient_id, glucose_test1, glucose_test2, glucose_test3, average_glucose, diagno
 311,111,133,169.1,137.7,Normal
 312,105,113,136.6,118.2,Normal
 313,176,156,150.5,160.83,Prediabetes
-314,164,151,-1,157.5,Prediabetes
-315,114,129,-1,121.5,Normal
-316,125,182,-1,153.5,Prediabetes
-317,139,190,-1,164.5,Prediabetes
-318,129,109,-1,119.0,Normal
-319,175,177,-1,176.0,Prediabetes
-320,145,164,-1,154.5,Prediabetes
+314,164,151,Test Results Invalid,157.5,Prediabetes
+315,114,129,Test Results Invalid,121.5,Normal
+316,125,182,Test Results Invalid,153.5,Prediabetes
+317,139,190,Test Results Invalid,164.5,Prediabetes
+318,129,109,Test Results Invalid,119.0,Normal
+319,175,177,Test Results Invalid,176.0,Prediabetes
+320,145,164,Test Results Invalid,154.5,Prediabetes
 321,181,103,189.9,157.97,Prediabetes
 322,146,187,110.1,147.7,Prediabetes
 323,109,147,170.1,142.03,Prediabetes
@@ -504,7 +504,7 @@ patient_id, glucose_test1, glucose_test2, glucose_test3, average_glucose, diagno
 503,146,165,147.3,152.77,Prediabetes
 504,115,150,178.9,147.97,Prediabetes
 505,143,117,119.5,126.5,Normal
-506,176,,140.6,158.3,Prediabetes
+506,176,Test Results Invalid,140.6,158.3,Prediabetes
 507,186,156,183.3,175.1,Prediabetes
 508,116,103,189,136.0,Normal
 509,188,182,156.1,175.37,Prediabetes
@@ -520,7 +520,7 @@ patient_id, glucose_test1, glucose_test2, glucose_test3, average_glucose, diagno
 519,111,190,109.1,136.7,Normal
 520,103,146,131.9,126.97,Normal
 521,138,103,106.7,115.9,Normal
-522,190,,151.5,170.75,Prediabetes
+522,190,Test Results Invalid,151.5,170.75,Prediabetes
 523,134,190,165.3,163.1,Prediabetes
 524,189,144,179.6,170.87,Prediabetes
 525,185,129,137.9,150.63,Prediabetes
@@ -576,7 +576,7 @@ patient_id, glucose_test1, glucose_test2, glucose_test3, average_glucose, diagno
 575,149,177,149,158.33,Prediabetes
 576,166,122,104,130.67,Normal
 577,186,106,140,144.0,Prediabetes
-578,158,,154,156.0,Prediabetes
+578,158,Test Results Invalid,154,156.0,Prediabetes
 579,114,175,181,156.67,Prediabetes
 580,142,158,158,152.67,Prediabetes
 581,145,121,109,125.0,Normal
@@ -629,7 +629,7 @@ patient_id, glucose_test1, glucose_test2, glucose_test3, average_glucose, diagno
 628,161,146,109,138.67,Normal
 629,122,118,164,134.67,Normal
 630,108,126,174,136.0,Normal
-631,189,,134,161.5,Prediabetes
+631,189,Test Results Invalid,134,161.5,Prediabetes
 632,153,142,183,159.33,Prediabetes
 633,145,187,141,157.67,Prediabetes
 634,163,173,114,150.0,Prediabetes
@@ -703,7 +703,7 @@ patient_id, glucose_test1, glucose_test2, glucose_test3, average_glucose, diagno
 702,100,169,168,145.67,Prediabetes
 703,134,179,139,150.67,Prediabetes
 704,137,184,182,167.67,Prediabetes
-705,131,100000,180,155.5,Prediabetes
+705,131,Test Results Invalid,180,155.5,Prediabetes
 706,180,119,119,139.33,Prediabetes
 707,114,115,184,137.67,Normal
 708,107,180,133,140.0,Prediabetes
@@ -736,7 +736,7 @@ patient_id, glucose_test1, glucose_test2, glucose_test3, average_glucose, diagno
 735,107,133,154,131.33,Normal
 736,132,143,190,155.0,Prediabetes
 737,175,151,145,157.0,Prediabetes
-738,153,inf,157,155.0,Prediabetes
+738,153,Test Results Invalid,157,155.0,Prediabetes
 739,133,159,119,137.0,Normal
 740,165,143,117,141.67,Prediabetes
 741,147,133,125,135.0,Normal
@@ -751,14 +751,14 @@ patient_id, glucose_test1, glucose_test2, glucose_test3, average_glucose, diagno
 750,145,118,144,135.67,Normal
 751,150,153,114,139.0,Normal
 752,166,184,159,169.67,Prediabetes
-753,186,,130,158.0,Prediabetes
+753,186,Test Results Invalid,130,158.0,Prediabetes
 754,172,165,119,152.0,Prediabetes
 755,138,187,161,162.0,Prediabetes
 756,187,117,162,155.33,Prediabetes
 757,156,103,152,137.0,Normal
 758,154,148,141,147.67,Prediabetes
 759,158,112,118,129.33,Normal
-760,149,,161,155.0,Prediabetes
+760,149,Test Results Invalid,161,155.0,Prediabetes
 761,189,135,189,171.0,Prediabetes
 762,130,121,177,142.67,Prediabetes
 763,143,135,148,142.0,Prediabetes
@@ -784,11 +784,11 @@ patient_id, glucose_test1, glucose_test2, glucose_test3, average_glucose, diagno
 783,149,113,179,147.0,Prediabetes
 784,129,162,135,142.0,Prediabetes
 785,190,170,183,181.0,Prediabetes
-786,118,104,,111.0,Normal
-787,176,184,,180.0,Prediabetes
-788,138,107,,122.5,Normal
-789,161,103,,132.0,Normal
-790,165,160,,162.5,Prediabetes
+786,118,104,Test Results Invalid,111.0,Normal
+787,176,184,Test Results Invalid,180.0,Prediabetes
+788,138,107,Test Results Invalid,122.5,Normal
+789,161,103,Test Results Invalid,132.0,Normal
+790,165,160,Test Results Invalid,162.5,Prediabetes
 791,110,149,135,131.33,Normal
 792,169,122,174,155.0,Prediabetes
 793,150,121,123,131.33,Normal
@@ -836,11 +836,11 @@ patient_id, glucose_test1, glucose_test2, glucose_test3, average_glucose, diagno
 835,113,164,118,131.67,Normal
 836,183,148,158,163.0,Prediabetes
 837,169,103,115,129.0,Normal
-838,103,0,144,123.5,Normal
+838,103,Test Results Invalid,144,123.5,Normal
 839,129,119,109,119.0,Normal
-840,170,0,181,175.5,Prediabetes
-841,190,0,129,159.5,Prediabetes
-842,113,0,168,140.5,Prediabetes
+840,170,Test Results Invalid,181,175.5,Prediabetes
+841,190,Test Results Invalid,129,159.5,Prediabetes
+842,113,Test Results Invalid,168,140.5,Prediabetes
 843,178,182,138,166.0,Prediabetes
 844,158,152,190,166.67,Prediabetes
 845,169,110,123,134.0,Normal
@@ -871,13 +871,13 @@ patient_id, glucose_test1, glucose_test2, glucose_test3, average_glucose, diagno
 870,158,139,115,137.33,Normal
 871,161,179,190,176.67,Prediabetes
 872,169,140,190,166.33,Prediabetes
-873,131,119,,125.0,Normal
-874,111,142,,126.5,Normal
-875,143,130,,136.5,Normal
-876,174,104,,139.0,Normal
-877,186,173,,179.5,Prediabetes
-878,167,174,,170.5,Prediabetes
-879,141,172,,156.5,Prediabetes
+873,131,119,Test Results Invalid,125.0,Normal
+874,111,142,Test Results Invalid,126.5,Normal
+875,143,130,Test Results Invalid,136.5,Normal
+876,174,104,Test Results Invalid,139.0,Normal
+877,186,173,Test Results Invalid,179.5,Prediabetes
+878,167,174,Test Results Invalid,170.5,Prediabetes
+879,141,172,Test Results Invalid,156.5,Prediabetes
 880,159,135,122,138.67,Normal
 881,186,189,153,176.0,Prediabetes
 882,179,189,190,186.0,Prediabetes
@@ -933,12 +933,12 @@ patient_id, glucose_test1, glucose_test2, glucose_test3, average_glucose, diagno
 932,124,190,109,141.0,Prediabetes
 933,187,173,161,173.67,Prediabetes
 934,153,124,176,151.0,Prediabetes
-935,179,117,,148.0,Prediabetes
+935,179,117,Test Results Invalid,148.0,Prediabetes
 936,105,172,120,132.33,Normal
 937,132,103,169,134.67,Normal
 938,156,133,137,142.0,Prediabetes
 939,154,119,130,134.33,Normal
-940,175,116,,145.5,Prediabetes
+940,175,116,Test Results Invalid,145.5,Prediabetes
 941,108,146,139,131.0,Normal
 942,124,157,121,134.0,Normal
 943,130,111,176,139.0,Normal
@@ -987,15 +987,15 @@ patient_id, glucose_test1, glucose_test2, glucose_test3, average_glucose, diagno
 986,160,176,300,212.0,Diabetes
 987,185,126,138,149.67,Prediabetes
 988,128,187,184,166.33,Prediabetes
-989,165,112,null,138.5,Normal
-990,163,143,null,153.0,Prediabetes
-991,173,121,null,147.0,Prediabetes
-992,188,167,null,177.5,Prediabetes
-993,156,163,null,159.5,Prediabetes
-994,184,121,null,152.5,Prediabetes
-995,107,173,null,140.0,Prediabetes
-996,110,149,,129.5,Normal
-997,182,142,,162.0,Prediabetes
-998,137,119,,128.0,Normal
-999,165,177,,171.0,Prediabetes
-1000,135,138,,136.5,Normal
+989,165,112,Test Results Invalid,138.5,Normal
+990,163,143,Test Results Invalid,153.0,Prediabetes
+991,173,121,Test Results Invalid,147.0,Prediabetes
+992,188,167,Test Results Invalid,177.5,Prediabetes
+993,156,163,Test Results Invalid,159.5,Prediabetes
+994,184,121,Test Results Invalid,152.5,Prediabetes
+995,107,173,Test Results Invalid,140.0,Prediabetes
+996,110,149,Test Results Invalid,129.5,Normal
+997,182,142,Test Results Invalid,162.0,Prediabetes
+998,137,119,Test Results Invalid,128.0,Normal
+999,165,177,Test Results Invalid,171.0,Prediabetes
+1000,135,138,Test Results Invalid,136.5,Normal

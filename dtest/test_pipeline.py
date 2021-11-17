@@ -1,5 +1,16 @@
+from types import NoneType
 import unittest
-from .pipeline import check_diabetes,average
+from .pipeline import clean,check_diabetes,average
+
+
+class testClean(unittest.TestCase):
+    def testInvalidNumber(self):
+        self.assertEqual(clean('-1'),'Test Results Invalid')
+        self.assertEqual(clean('10000'),'Test Results Invalid')
+    def testInvalidString(self):
+        self.assertEqual(clean('Apple'),'Test Results Invalid')
+    def testEmptyString(self):
+        self.assertEqual(clean(''),'Test Results Invalid')
 
 
 class testAverage(unittest.TestCase):
