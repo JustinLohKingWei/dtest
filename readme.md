@@ -1,3 +1,8 @@
+# Dtest Summary
+
+# How to run
+ 
+
 # Assumptions taken
 
 - If an invalid value is detected in any of the three tests, only the average between the valid values are computed
