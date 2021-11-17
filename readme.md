@@ -9,15 +9,16 @@
  # Usage
 ## Reading and Writing to a file
 1. Use **dtest -i inputFileName -o outputFileName** to read the file **inputFilename** and write the results to **outputFilename**
+2. If no output or input file is specified, you can still run **$ dtest -t -i -o** which will use default input and output files.
+3. Use **dtest --help** for help information
 ## Running Unit tests
-1. Use **dtest -t -i -o** to excute all unit tests found in the directory
-
+1. Use **dtest -t -i -o** to execute all unit tests found in the directory
 
  # Uninstallation guide
  1. Remove the application using **$ pip uninstall -e.**
 
 
-# Assumptions taken
+# All Assumptions Taken
 
 - If an invalid value is detected in any of the three tests, only the average between the valid values are computed
 - The highest blood sugar level survived by a human is 2656 mg/dl according to this [source](https://www.guinnessworldrecords.com/world-records/highest-blood-sugar-level/?fb_comment_id=811257658947726_974655159274641) , therefore we assume any inputs above this value as faulty and not to be considered.
