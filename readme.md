@@ -3,17 +3,18 @@
 
 # Installation guide
  1. Have at least python 2 installed. 
- 2. Access the repository via a terminal. 
- 3. Run pip3 install .e 
+ 2. Clone and access the repository via a terminal. 
+ 3. Run **$ pip install -e.** to install the application
 
  # Usage
 ## Reading and Writing to a file
-1. Use
+1. Use **dtest -i inputFileName -o outputFileName** to read the file **inputFilename** and write the results to **outputFilename**
 ## Running Unit tests
-2. Use
+2. Use **dtest -t -i -o** to excute all unit tests found in the directory
 
 
  # Uninstallation guide
+ 1. Remove the application using **$ pip uninstall -e.**
 
 
 # Assumptions taken
